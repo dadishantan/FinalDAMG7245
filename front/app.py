@@ -93,7 +93,11 @@ def main():
        Annual_Premium, Policy_Sales_Channel, vintage, Gender_F,
        Gender_M, Vehicle_Age_1_2, Vehicle_Age_1,
        Vehicle_Age_2, Vehicle_Damage_No, Vehicle_Damage_yes)
-        st.success('The age is {}'.format(output))
+        if output == 1:
+            #st.success('output== {}'.format(output))
+            st.success('Looks like a potential Customer')
+        elif output == 0:
+            st.success('Doesnt seen like a potential Customer')
 
         if output == 1:
             st.markdown(safe_html,unsafe_allow_html=True)
