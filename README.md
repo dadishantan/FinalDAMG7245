@@ -13,7 +13,7 @@ Project Proposal link - Google Codelabs - https://codelabs-preview.appspot.com/?
 
 Project Documentation link- Google Codelabs - https://codelabs-preview.appspot.com/?file_id=1BZLArMFsKlST120SUppqxiyl9Q3A4u3fJAYuXOFxXuk#0
 
-#Contributions
+# Contributions
 1.Samanth:
 Streamlit app
 Dockerization
